@@ -1,0 +1,122 @@
+C:\Users\PC\PycharmProjects\hansol\venv\Scripts\python.exe "C:\Users\PC\Desktop\PyCharm 2019.2\helpers\pydev\pydevconsole.py" --mode=client --port=50959
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['C:\\Users\\PC\\PycharmProjects\\hansol', 'C:/Users/PC/PycharmProjects/hansol'])
+PyDev console: starting.
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+a = 1
+b = 'python'
+c = [1,2,3]
+a
+1
+b
+'python'
+c
+[1, 2, 3]
+a + b + c
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+print(a)
+1
+print('a')
+a
+print(b[0])
+p
+a = d
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'd' is not defined
+d = a
+d
+1
+a
+1
+a = 1
+b = 'python'
+c = [1,2,3]
+a
+1
+v
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'v' is not defined
+a
+1
+b
+'python'
+c
+[1, 2, 3]
+b = "python"
+b
+'python'
+a
+1
+b
+'python'
+c
+[1, 2, 3]
+id(a)
+1809933488
+id(b)
+59823840
+a = [1,2,3]
+id(a)
+65186072
+b = a
+b
+[1, 2, 3]
+id(b)
+65186072
+a is b
+True
+a[1] = 4
+a
+[1, 4, 3]
+a[2] = 5
+a
+[1, 4, 5]
+b
+[1, 4, 5]
+a = [1,2,3]
+b = a[:]
+a
+[1, 2, 3]
+a[1] = 4
+a
+[1, 4, 3]
+b
+[1, 2, 3]
+a = 3
+b = 5
+a, b = b, a
+a
+5
+d
+1
+b
+3
+x = 13
+a = 13
+if [a % 2 == 0]:
+    print('짝수')
+else:
+    print('홀수')
+    
+짝수
+if [a % 2 == 0]:
+    print('짝수')
+elif[a % 2 == 1]:
+    print('홀수')
+    
+짝수
+if [x % 2 == 0]:
+    print('짝수')
+elif[x % 2 == 1]:
+    print('홀수')
+짝수
+if [a % 2 == 0]:
+    print('짝수')
+else:
+    print('홀수')
+    
+짝수
